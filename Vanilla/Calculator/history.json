@@ -1,0 +1,1766 @@
+[
+	{
+		"ValA": 7,
+		"ValB": 6,
+		"Ans": 1,
+		"Action": "-"
+	},
+	{
+		"ValA": 1,
+		"ValB": 3,
+		"Ans": -2,
+		"Action": "-"
+	},
+	{
+		"ValA": -2,
+		"ValB": 0,
+		"Ans": -2,
+		"Action": "-"
+	},
+	{
+		"ValA": -2,
+		"ValB": 6,
+		"Ans": -8,
+		"Action": "-"
+	},
+	{
+		"ValA": -8,
+		"ValB": 6,
+		"Ans": -14,
+		"Action": "-"
+	},
+	{
+		"ValA": -14,
+		"ValB": 6,
+		"Ans": -20,
+		"Action": "-"
+	},
+	{
+		"ValA": -20,
+		"ValB": 6,
+		"Ans": -26,
+		"Action": "-"
+	},
+	{
+		"ValA": -26,
+		"ValB": 6,
+		"Ans": -32,
+		"Action": "-"
+	},
+	{
+		"ValA": -32,
+		"ValB": 6,
+		"Ans": -38,
+		"Action": "-"
+	},
+	{
+		"ValA": -38,
+		"ValB": 6,
+		"Ans": -44,
+		"Action": "-"
+	},
+	{
+		"ValA": -44,
+		"ValB": 6,
+		"Ans": -50,
+		"Action": "-"
+	},
+	{
+		"ValA": -50,
+		"ValB": 6,
+		"Ans": -56,
+		"Action": "-"
+	},
+	{
+		"ValA": -56,
+		"ValB": 6,
+		"Ans": -62,
+		"Action": "-"
+	},
+	{
+		"ValA": -62,
+		"ValB": 66,
+		"Ans": -128,
+		"Action": "-"
+	},
+	{
+		"ValA": -128,
+		"ValB": 6,
+		"Ans": -134,
+		"Action": "-"
+	},
+	{
+		"ValA": -134,
+		"ValB": 6,
+		"Ans": -140,
+		"Action": "-"
+	},
+	{
+		"ValA": 8,
+		"ValB": 6,
+		"Ans": 2,
+		"Action": "-"
+	},
+	{
+		"ValA": 2,
+		"ValB": 6,
+		"Ans": -4,
+		"Action": "-"
+	},
+	{
+		"ValA": -4,
+		"ValB": 6,
+		"Ans": -10,
+		"Action": "-"
+	},
+	{
+		"ValA": -10,
+		"ValB": 6,
+		"Ans": -16,
+		"Action": "-"
+	},
+	{
+		"ValA": -16,
+		"ValB": 0,
+		"Ans": -16,
+		"Action": "-"
+	},
+	{
+		"ValA": -16,
+		"ValB": 6,
+		"Ans": -22,
+		"Action": "-"
+	},
+	{
+		"ValA": -22,
+		"ValB": 6,
+		"Ans": -28,
+		"Action": "-"
+	},
+	{
+		"ValA": -28,
+		"ValB": 6,
+		"Ans": -34,
+		"Action": "-"
+	},
+	{
+		"ValA": -34,
+		"ValB": 6,
+		"Ans": -40,
+		"Action": "-"
+	},
+	{
+		"ValA": -40,
+		"ValB": 6,
+		"Ans": -46,
+		"Action": "-"
+	},
+	{
+		"ValA": -46,
+		"ValB": 6,
+		"Ans": -52,
+		"Action": "-"
+	},
+	{
+		"ValA": -52,
+		"ValB": 6,
+		"Ans": -58,
+		"Action": "-"
+	},
+	{
+		"ValA": -58,
+		"ValB": 66,
+		"Ans": -124,
+		"Action": "-"
+	},
+	{
+		"ValA": -124,
+		"ValB": 6,
+		"Ans": -130,
+		"Action": "-"
+	},
+	{
+		"ValA": -130,
+		"ValB": 6,
+		"Ans": -136,
+		"Action": "-"
+	},
+	{
+		"ValA": -136,
+		"ValB": 6,
+		"Ans": -142,
+		"Action": "-"
+	},
+	{
+		"ValA": -142,
+		"ValB": 6,
+		"Ans": -148,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 9,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": -6,
+		"ValB": 6,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 6,
+		"Ans": -18,
+		"Action": "-"
+	},
+	{
+		"ValA": -18,
+		"ValB": 6,
+		"Ans": -24,
+		"Action": "-"
+	},
+	{
+		"ValA": -24,
+		"ValB": 6,
+		"Ans": -30,
+		"Action": "-"
+	},
+	{
+		"ValA": -30,
+		"ValB": 6,
+		"Ans": -36,
+		"Action": "-"
+	},
+	{
+		"ValA": -36,
+		"ValB": 6,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 6,
+		"Ans": -48,
+		"Action": "-"
+	},
+	{
+		"ValA": -48,
+		"ValB": 6,
+		"Ans": -54,
+		"Action": "-"
+	},
+	{
+		"ValA": -54,
+		"ValB": 0,
+		"Ans": -54,
+		"Action": "-"
+	},
+	{
+		"ValA": -54,
+		"ValB": 6,
+		"Ans": -60,
+		"Action": "-"
+	},
+	{
+		"ValA": -60,
+		"ValB": 6,
+		"Ans": -66,
+		"Action": "-"
+	},
+	{
+		"ValA": -66,
+		"ValB": 6,
+		"Ans": -72,
+		"Action": "-"
+	},
+	{
+		"ValA": -72,
+		"ValB": 6,
+		"Ans": -78,
+		"Action": "-"
+	},
+	{
+		"ValA": -78,
+		"ValB": 6,
+		"Ans": -84,
+		"Action": "-"
+	},
+	{
+		"ValA": -84,
+		"ValB": 6,
+		"Ans": -90,
+		"Action": "-"
+	},
+	{
+		"ValA": -90,
+		"ValB": 6,
+		"Ans": -96,
+		"Action": "-"
+	},
+	{
+		"ValA": -96,
+		"ValB": 6,
+		"Ans": -102,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 6,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": -6,
+		"ValB": 6,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 6,
+		"Ans": -18,
+		"Action": "-"
+	},
+	{
+		"ValA": -18,
+		"ValB": 6,
+		"Ans": -24,
+		"Action": "-"
+	},
+	{
+		"ValA": -24,
+		"ValB": 6,
+		"Ans": -30,
+		"Action": "-"
+	},
+	{
+		"ValA": -30,
+		"ValB": 6,
+		"Ans": -36,
+		"Action": "-"
+	},
+	{
+		"ValA": -36,
+		"ValB": 6,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 0,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 0,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 0,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 6,
+		"Ans": -48,
+		"Action": "-"
+	},
+	{
+		"ValA": -48,
+		"ValB": 6,
+		"Ans": -54,
+		"Action": "-"
+	},
+	{
+		"ValA": -54,
+		"ValB": 6,
+		"Ans": -60,
+		"Action": "-"
+	},
+	{
+		"ValA": -60,
+		"ValB": 0,
+		"Ans": -60,
+		"Action": "-"
+	},
+	{
+		"ValA": -60,
+		"ValB": 0,
+		"Ans": -60,
+		"Action": "-"
+	},
+	{
+		"ValA": 6,
+		"ValB": 6,
+		"Ans": 0,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 6,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": -6,
+		"ValB": 6,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 0,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 0,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 0,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 0,
+		"Ans": -12,
+		"Action": "-"
+	},
+	{
+		"ValA": -12,
+		"ValB": 6,
+		"Ans": -18,
+		"Action": "-"
+	},
+	{
+		"ValA": -18,
+		"ValB": 0,
+		"Ans": -18,
+		"Action": "-"
+	},
+	{
+		"ValA": -18,
+		"ValB": 6,
+		"Ans": -24,
+		"Action": "-"
+	},
+	{
+		"ValA": -24,
+		"ValB": 6,
+		"Ans": -30,
+		"Action": "-"
+	},
+	{
+		"ValA": -30,
+		"ValB": 6,
+		"Ans": -36,
+		"Action": "-"
+	},
+	{
+		"ValA": -36,
+		"ValB": 0,
+		"Ans": -36,
+		"Action": "-"
+	},
+	{
+		"ValA": -36,
+		"ValB": 0,
+		"Ans": -36,
+		"Action": "-"
+	},
+	{
+		"ValA": -36,
+		"ValB": 6,
+		"Ans": -42,
+		"Action": "-"
+	},
+	{
+		"ValA": -42,
+		"ValB": 6,
+		"Ans": -48,
+		"Action": "-"
+	},
+	{
+		"ValA": -48,
+		"ValB": 0,
+		"Ans": -48,
+		"Action": "-"
+	},
+	{
+		"ValA": -48,
+		"ValB": 0,
+		"Ans": -48,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 9,
+		"Ans": 0,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 66,
+		"Ans": -63,
+		"Action": "-"
+	},
+	{
+		"ValA": -63,
+		"ValB": 6,
+		"Ans": -69,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 6,
+		"Ans": -3,
+		"Action": "-"
+	},
+	{
+		"ValA": -3,
+		"ValB": 6,
+		"Ans": -9,
+		"Action": "-"
+	},
+	{
+		"ValA": -9,
+		"ValB": 6,
+		"Ans": -15,
+		"Action": "-"
+	},
+	{
+		"ValA": -15,
+		"ValB": 6,
+		"Ans": -21,
+		"Action": "-"
+	},
+	{
+		"ValA": -21,
+		"ValB": 6,
+		"Ans": -27,
+		"Action": "-"
+	},
+	{
+		"ValA": -27,
+		"ValB": 6,
+		"Ans": -33,
+		"Action": "-"
+	},
+	{
+		"ValA": -33,
+		"ValB": 6,
+		"Ans": -39,
+		"Action": "-"
+	},
+	{
+		"ValA": -39,
+		"ValB": 6,
+		"Ans": -45,
+		"Action": "-"
+	},
+	{
+		"ValA": -45,
+		"ValB": 6,
+		"Ans": -51,
+		"Action": "-"
+	},
+	{
+		"ValA": -51,
+		"ValB": 6,
+		"Ans": -57,
+		"Action": "-"
+	},
+	{
+		"ValA": -57,
+		"ValB": 6,
+		"Ans": -63,
+		"Action": "-"
+	},
+	{
+		"ValA": -63,
+		"ValB": 6,
+		"Ans": -69,
+		"Action": "-"
+	},
+	{
+		"ValA": -69,
+		"ValB": 6,
+		"Ans": -75,
+		"Action": "-"
+	},
+	{
+		"ValA": -75,
+		"ValB": 6,
+		"Ans": -81,
+		"Action": "-"
+	},
+	{
+		"ValA": 86,
+		"ValB": 6,
+		"Ans": 80,
+		"Action": "-"
+	},
+	{
+		"ValA": 80,
+		"ValB": 6,
+		"Ans": 74,
+		"Action": "-"
+	},
+	{
+		"ValA": 74,
+		"ValB": 6,
+		"Ans": 68,
+		"Action": "-"
+	},
+	{
+		"ValA": 68,
+		"ValB": 6,
+		"Ans": 62,
+		"Action": "-"
+	},
+	{
+		"ValA": 62,
+		"ValB": 6,
+		"Ans": 56,
+		"Action": "-"
+	},
+	{
+		"ValA": 56,
+		"ValB": 6,
+		"Ans": 50,
+		"Action": "-"
+	},
+	{
+		"ValA": 50,
+		"ValB": 6,
+		"Ans": 44,
+		"Action": "-"
+	},
+	{
+		"ValA": 44,
+		"ValB": 6,
+		"Ans": 38,
+		"Action": "-"
+	},
+	{
+		"ValA": 38,
+		"ValB": 6,
+		"Ans": 32,
+		"Action": "-"
+	},
+	{
+		"ValA": 32,
+		"ValB": 6,
+		"Ans": 26,
+		"Action": "-"
+	},
+	{
+		"ValA": 26,
+		"ValB": 0,
+		"Ans": 26,
+		"Action": "-"
+	},
+	{
+		"ValA": 26,
+		"ValB": 6,
+		"Ans": 20,
+		"Action": "-"
+	},
+	{
+		"ValA": 20,
+		"ValB": 6,
+		"Ans": 14,
+		"Action": "-"
+	},
+	{
+		"ValA": 14,
+		"ValB": 6,
+		"Ans": 8,
+		"Action": "-"
+	},
+	{
+		"ValA": 8,
+		"ValB": 6,
+		"Ans": 2,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 6,
+		"Ans": -3,
+		"Action": "-"
+	},
+	{
+		"ValA": -3,
+		"ValB": 6,
+		"Ans": -9,
+		"Action": "-"
+	},
+	{
+		"ValA": -9,
+		"ValB": 6,
+		"Ans": -15,
+		"Action": "-"
+	},
+	{
+		"ValA": -15,
+		"ValB": 0,
+		"Ans": -15,
+		"Action": "-"
+	},
+	{
+		"ValA": -15,
+		"ValB": 0,
+		"Ans": -15,
+		"Action": "-"
+	},
+	{
+		"ValA": -15,
+		"ValB": 6,
+		"Ans": -21,
+		"Action": "-"
+	},
+	{
+		"ValA": -21,
+		"ValB": 6,
+		"Ans": -27,
+		"Action": "-"
+	},
+	{
+		"ValA": -27,
+		"ValB": 6,
+		"Ans": -33,
+		"Action": "-"
+	},
+	{
+		"ValA": -33,
+		"ValB": 6,
+		"Ans": -39,
+		"Action": "-"
+	},
+	{
+		"ValA": -39,
+		"ValB": 6,
+		"Ans": -45,
+		"Action": "-"
+	},
+	{
+		"ValA": -45,
+		"ValB": 6,
+		"Ans": -51,
+		"Action": "-"
+	},
+	{
+		"ValA": -51,
+		"ValB": 6,
+		"Ans": -57,
+		"Action": "-"
+	},
+	{
+		"ValA": -57,
+		"ValB": 6,
+		"Ans": -63,
+		"Action": "-"
+	},
+	{
+		"ValA": -63,
+		"ValB": 6,
+		"Ans": -69,
+		"Action": "-"
+	},
+	{
+		"ValA": 8,
+		"ValB": 6,
+		"Ans": 2,
+		"Action": "-"
+	},
+	{
+		"ValA": 2,
+		"ValB": 6,
+		"Ans": -4,
+		"Action": "-"
+	},
+	{
+		"ValA": -4,
+		"ValB": 0,
+		"Ans": -4,
+		"Action": "-"
+	},
+	{
+		"ValA": -4,
+		"ValB": 6,
+		"Ans": -10,
+		"Action": "-"
+	},
+	{
+		"ValA": -10,
+		"ValB": 666,
+		"Ans": -676,
+		"Action": "-"
+	},
+	{
+		"ValA": -676,
+		"ValB": 6,
+		"Ans": -682,
+		"Action": "-"
+	},
+	{
+		"ValA": -682,
+		"ValB": 6,
+		"Ans": -688,
+		"Action": "-"
+	},
+	{
+		"ValA": -688,
+		"ValB": 56,
+		"Ans": -744,
+		"Action": "-"
+	},
+	{
+		"ValA": -744,
+		"ValB": 6,
+		"Ans": -750,
+		"Action": "-"
+	},
+	{
+		"ValA": -750,
+		"ValB": 0,
+		"Ans": -750,
+		"Action": "-"
+	},
+	{
+		"ValA": -750,
+		"ValB": 6,
+		"Ans": -756,
+		"Action": "-"
+	},
+	{
+		"ValA": -756,
+		"ValB": 66,
+		"Ans": -822,
+		"Action": "-"
+	},
+	{
+		"ValA": -822,
+		"ValB": 6,
+		"Ans": -828,
+		"Action": "-"
+	},
+	{
+		"ValA": -828,
+		"ValB": 6,
+		"Ans": -834,
+		"Action": "-"
+	},
+	{
+		"ValA": -834,
+		"ValB": 6,
+		"Ans": -840,
+		"Action": "-"
+	},
+	{
+		"ValA": -840,
+		"ValB": 6,
+		"Ans": -846,
+		"Action": "-"
+	},
+	{
+		"ValA": -846,
+		"ValB": 6,
+		"Ans": -852,
+		"Action": "-"
+	},
+	{
+		"ValA": 6,
+		"ValB": 6,
+		"Ans": 0,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 6,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": -6,
+		"ValB": 66,
+		"Ans": -72,
+		"Action": "-"
+	},
+	{
+		"ValA": -72,
+		"ValB": 6,
+		"Ans": -78,
+		"Action": "-"
+	},
+	{
+		"ValA": -78,
+		"ValB": 6,
+		"Ans": -84,
+		"Action": "-"
+	},
+	{
+		"ValA": -84,
+		"ValB": 6,
+		"Ans": -90,
+		"Action": "-"
+	},
+	{
+		"ValA": -90,
+		"ValB": 6,
+		"Ans": -96,
+		"Action": "-"
+	},
+	{
+		"ValA": -96,
+		"ValB": 6,
+		"Ans": -102,
+		"Action": "-"
+	},
+	{
+		"ValA": -102,
+		"ValB": 6,
+		"Ans": -108,
+		"Action": "-"
+	},
+	{
+		"ValA": -108,
+		"ValB": 0,
+		"Ans": -108,
+		"Action": "-"
+	},
+	{
+		"ValA": -108,
+		"ValB": 0,
+		"Ans": -108,
+		"Action": "-"
+	},
+	{
+		"ValA": -108,
+		"ValB": 0,
+		"Ans": -108,
+		"Action": "-"
+	},
+	{
+		"ValA": -108,
+		"ValB": 0,
+		"Ans": -108,
+		"Action": "-"
+	},
+	{
+		"ValA": -108,
+		"ValB": 6,
+		"Ans": -114,
+		"Action": "-"
+	},
+	{
+		"ValA": -114,
+		"ValB": 6,
+		"Ans": -120,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 6,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": -6,
+		"ValB": 66,
+		"Ans": -72,
+		"Action": "-"
+	},
+	{
+		"ValA": -72,
+		"ValB": 0,
+		"Ans": -72,
+		"Action": "-"
+	},
+	{
+		"ValA": -72,
+		"ValB": 6,
+		"Ans": -78,
+		"Action": "-"
+	},
+	{
+		"ValA": -78,
+		"ValB": 6,
+		"Ans": -84,
+		"Action": "-"
+	},
+	{
+		"ValA": -84,
+		"ValB": 6,
+		"Ans": -90,
+		"Action": "-"
+	},
+	{
+		"ValA": -90,
+		"ValB": 6,
+		"Ans": -96,
+		"Action": "-"
+	},
+	{
+		"ValA": -96,
+		"ValB": 0,
+		"Ans": -96,
+		"Action": "-"
+	},
+	{
+		"ValA": -96,
+		"ValB": 66,
+		"Ans": -162,
+		"Action": "-"
+	},
+	{
+		"ValA": -162,
+		"ValB": 66,
+		"Ans": -228,
+		"Action": "-"
+	},
+	{
+		"ValA": -228,
+		"ValB": 6,
+		"Ans": -234,
+		"Action": "-"
+	},
+	{
+		"ValA": -234,
+		"ValB": 6,
+		"Ans": -240,
+		"Action": "-"
+	},
+	{
+		"ValA": -240,
+		"ValB": 666,
+		"Ans": -906,
+		"Action": "-"
+	},
+	{
+		"ValA": -906,
+		"ValB": 6,
+		"Ans": -912,
+		"Action": "-"
+	},
+	{
+		"ValA": -912,
+		"ValB": 0,
+		"Ans": -912,
+		"Action": "-"
+	},
+	{
+		"ValA": -912,
+		"ValB": 0,
+		"Ans": -912,
+		"Action": "-"
+	},
+	{
+		"ValA": -912,
+		"ValB": 0,
+		"Ans": -912,
+		"Action": "-"
+	},
+	{
+		"ValA": -912,
+		"ValB": 6,
+		"Ans": -918,
+		"Action": "-"
+	},
+	{
+		"ValA": -918,
+		"ValB": 6,
+		"Ans": -924,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 6,
+		"ValB": 3,
+		"Ans": 9,
+		"Action": "+"
+	},
+	{
+		"ValA": 9,
+		"ValB": 2,
+		"Ans": 11,
+		"Action": "+"
+	},
+	{
+		"ValA": 11,
+		"ValB": 6,
+		"Ans": 5,
+		"Action": "-"
+	},
+	{
+		"ValA": 5,
+		"ValB": 0,
+		"Ans": 5,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 6,
+		"Ans": -3,
+		"Action": "-"
+	},
+	{
+		"ValA": 8,
+		"ValB": 3,
+		"Ans": 2.6666666666666665,
+		"Action": "/"
+	},
+	{
+		"ValA": 8,
+		"ValB": 2,
+		"Ans": 16,
+		"Action": "*"
+	},
+	{
+		"ValA": 44,
+		"ValB": 6,
+		"Ans": 7.333333333333333,
+		"Action": "/"
+	},
+	{
+		"ValA": 3,
+		"ValB": 5,
+		"Ans": -2,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 5,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 2,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 3,
+		"Ans": 3,
+		"Action": "+"
+	},
+	{
+		"ValA": 0.5,
+		"ValB": 66,
+		"Ans": 66.5,
+		"Action": "+"
+	},
+	{
+		"ValA": 0,
+		"ValB": 555559,
+		"Ans": 555559,
+		"Action": "+"
+	},
+	{
+		"ValA": 555559,
+		"ValB": 55,
+		"Ans": 10101.072727272727,
+		"Action": "/"
+	},
+	{
+		"ValA": 8,
+		"ValB": 6,
+		"Ans": 48,
+		"Action": "*"
+	},
+	{
+		"ValA": 48,
+		"ValB": 35,
+		"Ans": 1680,
+		"Action": "*"
+	},
+	{
+		"ValA": 1680,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 2,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 3,
+		"ValB": 6,
+		"Ans": 9,
+		"Action": "+"
+	},
+	{
+		"ValA": 9,
+		"ValB": 3,
+		"Ans": 0,
+		"Action": "%"
+	},
+	{
+		"ValA": 888,
+		"ValB": 6,
+		"Ans": 0,
+		"Action": "%"
+	},
+	{
+		"ValA": 222,
+		"ValB": 6669,
+		"Ans": -6447,
+		"Action": "-"
+	},
+	{
+		"ValA": -6447,
+		"ValB": 9999,
+		"Ans": -16446,
+		"Action": "-"
+	},
+	{
+		"ValA": -16446,
+		"ValB": 5,
+		"Ans": -16451,
+		"Action": "-"
+	},
+	{
+		"ValA": -16451,
+		"ValB": 56,
+		"Ans": -16507,
+		"Action": "-"
+	},
+	{
+		"ValA": -16507,
+		"ValB": 0,
+		"Ans": -16507,
+		"Action": "-"
+	},
+	{
+		"ValA": -16507,
+		"ValB": 66,
+		"Ans": -16573,
+		"Action": "-"
+	},
+	{
+		"ValA": -16573,
+		"ValB": 888,
+		"Ans": -17461,
+		"Action": "-"
+	},
+	{
+		"ValA": -17461,
+		"ValB": 999,
+		"Ans": -18460,
+		"Action": "-"
+	},
+	{
+		"ValA": -18460,
+		"ValB": 9358,
+		"Ans": -27818,
+		"Action": "-"
+	},
+	{
+		"ValA": -27818,
+		"ValB": 888,
+		"Ans": -28706,
+		"Action": "-"
+	},
+	{
+		"ValA": -28706,
+		"ValB": 9999,
+		"Ans": -38705,
+		"Action": "-"
+	},
+	{
+		"ValA": -38705,
+		"ValB": 99,
+		"Ans": -38804,
+		"Action": "-"
+	},
+	{
+		"ValA": -38804,
+		"ValB": 999,
+		"Ans": -39803,
+		"Action": "-"
+	},
+	{
+		"ValA": -39803,
+		"ValB": 9999,
+		"Ans": -49802,
+		"Action": "-"
+	},
+	{
+		"ValA": -49802,
+		"ValB": 9999,
+		"Ans": -59801,
+		"Action": "-"
+	},
+	{
+		"ValA": -59801,
+		"ValB": 99,
+		"Ans": -59900,
+		"Action": "-"
+	},
+	{
+		"ValA": -59900,
+		"ValB": 333,
+		"Ans": -60233,
+		"Action": "-"
+	},
+	{
+		"ValA": -60233,
+		"ValB": 5555,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": -65788,
+		"ValB": 0,
+		"Ans": -65788,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 0,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 9,
+		"ValB": 0,
+		"Ans": 9,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 0,
+		"Ans": 9,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 0,
+		"Ans": 9,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 0,
+		"Ans": 9,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 0,
+		"Ans": 9,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 6,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 3,
+		"ValB": 0,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 6,
+		"Action": "+"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 0,
+		"Ans": 6,
+		"Action": "+"
+	},
+	{
+		"ValA": 0,
+		"ValB": 5,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 6,
+		"ValB": 3,
+		"Ans": 3,
+		"Action": "-"
+	},
+	{
+		"ValA": 6,
+		"ValB": 5,
+		"Ans": 11,
+		"Action": "+"
+	},
+	{
+		"ValA": 6,
+		"ValB": 5,
+		"Ans": 11,
+		"Action": "+"
+	},
+	{
+		"ValA": 6,
+		"ValB": 5,
+		"Ans": 1.2,
+		"Action": "/"
+	},
+	{
+		"ValA": 6,
+		"ValB": 5,
+		"Ans": 1,
+		"Action": "-"
+	},
+	{
+		"ValA": 1,
+		"ValB": 9,
+		"Ans": 0.1111111111111111,
+		"Action": "/"
+	},
+	{
+		"ValA": 0.1111111111111111,
+		"ValB": 3,
+		"Ans": 0.3333333333333333,
+		"Action": "*"
+	},
+	{
+		"ValA": 0.3333333333333333,
+		"ValB": 6,
+		"Ans": 6.333333333333333,
+		"Action": "+"
+	},
+	{
+		"ValA": 3,
+		"ValB": 9,
+		"Ans": -6,
+		"Action": "-"
+	},
+	{
+		"ValA": 9,
+		"ValB": 3,
+		"Ans": 3,
+		"Action": "/"
+	},
+	{
+		"ValA": 6,
+		"ValB": 3,
+		"Ans": 2,
+		"Action": "/"
+	},
+	{
+		"ValA": 6,
+		"ValB": 3,
+		"Ans": 9,
+		"Action": "+"
+	},
+	{
+		"ValA": 9,
+		"ValB": 9,
+		"Ans": 0,
+		"Action": "-"
+	},
+	{
+		"ValA": 0,
+		"ValB": 2,
+		"Ans": 0,
+		"Action": "*"
+	},
+	{
+		"ValA": 8,
+		"ValB": 6,
+		"Ans": 48,
+		"Action": "*"
+	},
+	{
+		"ValA": 65,
+		"ValB": 6,
+		"Ans": 59,
+		"Action": "-"
+	},
+	{
+		"ValA": 1,
+		"ValB": 3,
+		"Ans": 4,
+		"Action": "+"
+	},
+	{
+		"ValA": 4,
+		"ValB": 6,
+		"Ans": -2,
+		"Action": "-"
+	}
+]

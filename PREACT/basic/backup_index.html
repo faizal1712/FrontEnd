@@ -1,0 +1,48 @@
+<!doctype html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<div id=appEl></div>
+
+<script src="preact.dev.js"></script>
+
+<script>
+  var h = preact.h;
+
+  var app = {
+    name: "Radha",
+    counter: 0,
+  }
+
+  function render() {
+    if (window.event) {
+      window.event.stopPropagation()
+    }
+
+    const inc = () => {
+      app.counter++
+      render()
+    }
+
+    const View = () => {
+      // return h("div", {id: "name"}, app.name) // <div id="name">{app.name}</div>
+      // <div>
+      //   <button>-</button>
+      //   <div>{app.counter}</div>
+      //   <button>+</button>
+      // </div>
+      return h("div", null,
+        h("button", null, "-"),
+        h("div", null, app.counter),
+        h("button", {onclick: () => inc()}, "+")
+      )
+    } 
+
+    // this is the only thing that should be in render
+    preact.render(View(), appEl, appEl.firstChild)
+  }
+
+  render();
+</script>

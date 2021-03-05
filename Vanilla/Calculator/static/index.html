@@ -1,0 +1,291 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:#344356">
+    <div class="w-50 mx-auto my-5 py-5 border text-center row">
+        <div id="history" style="display: none;">
+            <div class="mx-2 p-2 text-white" id="history_data" style="background-color:#0f1722; overflow-y: auto;">
+
+            </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12 col-lg-12 px-5" id="cal">
+            <div class="m-3 row text-white">
+                <div class="col-md-2 btn text-left text-white" id="history_btn"><u>History</u></div>
+                <div class="col-md-9 text-right">
+                    <h4 id="valA"></h4>
+                </div>
+                <div class="col-md-1">
+                    <h4 id="operation"></h4>
+                </div>
+            </div>
+            <div class="m-3 border">
+                <h1 class="text-right text-white" id="valB">0</h1>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 clear" id="ac_clear">
+                        <h4>AC</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 clear" id="c_clear">
+                        <h4>C</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 symbol" id="%">
+                        <h4>%</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 symbol" id="/">
+                        <h4>/</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="7">
+                        <h4>7</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="8">
+                        <h4>8</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="9">
+                        <h4>9</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 symbol" id="*">
+                        <h4>*</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="4">
+                        <h4>4</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="5">
+                        <h4>5</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="6">
+                        <h4>6</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 symbol" id="-">
+                        <h4>-</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="1">
+                        <h4>1</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="2">
+                        <h4>2</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="3">
+                        <h4>3</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2 symbol" id="+">
+                        <h4>+</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-6 col-sm-6 col-lg-6 px-2 btn text-white">
+                    <div class="bg-secondary p-2 digit" id="0">
+                        <h4>0</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2" id="dot">
+                        <h4>.</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-lg-3 px-2 btn text-white">
+                    <div class="bg-secondary p-2" id="equal">
+                        <h4>=</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    window.flag = false
+    window.hist = false
+    window.A = false
+
+    $(document).ready(function() {
+        // //console.log($("#cal").outerHeight)
+        $("#history_data").css("height", $("#cal").outerHeight())
+    })
+
+
+    $("#history_btn").click(function() {
+        // //console.log(window.hist)
+        if (window.hist == true) {
+            // //console.log("in true")
+            $("#history").css("display", "none")
+            $("#history").removeClass("col-md-4")
+            $("#history").removeClass("col-lg-4")
+            $("#history").removeClass("col-sm-4")
+            $("#history").removeClass("col-4")
+            $("#history").removeClass("border-right")
+            $("#cal").addClass("col-md-12")
+            $("#cal").addClass("col-lg-12")
+            $("#cal").addClass("col-sm-12")
+            $("#cal").addClass("col-12")
+            $("#cal").removeClass("col-md-8")
+            $("#cal").removeClass("col-lg-8")
+            $("#cal").removeClass("col-sm-8")
+            $("#cal").removeClass("col-8")
+            window.hist = false
+        } else {
+            // //console.log("in false")
+            $("#history").css("display", "block")
+            $("#history").addClass("col-md-4")
+            $("#history").addClass("col-lg-4")
+            $("#history").addClass("col-sm-4")
+            $("#history").addClass("col-4")
+            $("#history").addClass("border-right")
+            $("#cal").removeClass("col-md-12")
+            $("#cal").removeClass("col-lg-12")
+            $("#cal").removeClass("col-sm-12")
+            $("#cal").removeClass("col-12")
+            $("#cal").addClass("col-md-8")
+            $("#cal").addClass("col-lg-8")
+            $("#cal").addClass("col-sm-8")
+            $("#cal").addClass("col-8")
+            window.hist = true
+        }
+    })
+
+    $(".clear").click(function() {
+        if (this.id == "c_clear") {
+            $("#valB").text("0")
+        } else if (this.id == "ac_clear") {
+            $("#history_data").empty()
+            $("#valA").text("")
+            $("#operation").text("")
+            $("#valB").text("0")
+        }
+    })
+    $(".digit").click(function() {
+        window.A = true
+        if (isNaN(parseFloat($("#valB").text()))) {
+            $("#valB").text(this.id)
+        } else if (parseFloat($("#valB").text()) == 0 && !$("#valB").text().includes(".")) {
+            if (flag == true) {
+                flag = false;
+                $("#valA").text("")
+            }
+            $("#valB").text(this.id)
+        } else {
+            if (flag == true) {
+                flag = false;
+                $("#valA").text("")
+            }
+            $("#valB").append(this.id)
+        }
+    })
+    $(".symbol").click(function() {
+        //console.log(parseFloat($("#valB").text()))
+        if (isNaN(parseFloat($("#valB").text()))) {
+            alert("Numerical value required to perform operations")
+        } else if ($("#valA").text() == "") {
+            $("#valA").text($("#valB").text())
+            $("#operation").text(this.id)
+            $("#valB").text("0")
+            window.A = false
+        } else {
+            //console.log("else")
+            if (flag == true) {
+                flag = false;
+                $("#operation").text(this.id)
+            } else {
+                if (window.A)
+                    calculate_val()
+                $("#operation").text(this.id)
+            }
+        }
+    })
+    $("#equal").click(function() {
+        flag = true
+            //console.log("hit equal")
+        calculate_val()
+        $("#operation").text("")
+        window.A = false
+    })
+    $("#dot").click(function() {
+        //console.log("dot")
+        if (isNaN(parseFloat($("#valB").text()))) {
+            alert("Numerical value required to perform operations")
+        } else {
+            if (!$("#valB").text().includes(".")) {
+                $("#valB").append(".")
+            }
+        }
+    })
+
+    function calculate_val() {
+        $.ajax({
+                url: "http://localhost:8080/calculate",
+                type: "POST",
+                dataType: "json",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    ValA: parseFloat($("#valA").text()),
+                    ValB: parseFloat($("#valB").text()),
+                    Action: $("#operation").text()
+                }),
+            })
+            .done(function(response) {
+                try {
+                    if (response.IsError) {
+                        alert(response.Msg)
+                    } else {
+                        //console.log(response)
+                        $("#history_data").prepend("<p>" + response.Data.ValA + " " + response.Data.Action + " " + response.Data.ValB + " = " + response.Ans)
+                        $("#valA").text(response.Ans)
+                        $("#valB").text("0")
+                    }
+                } catch (err) {
+                    alert("An error occured, Please try again!", err);
+                }
+            })
+            .fail(function(jqXHR, textStatus, errorThrown) {
+                var msg = JSON.parse(jqXHR.responseText);
+                //console.log(msg)
+            });
+    }
+</script>

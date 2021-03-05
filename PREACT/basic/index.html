@@ -1,0 +1,77 @@
+<!doctype html>
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<div class="row">
+	<div id=appEl1 class = "col-md-2"></div>
+	<div id=appEl2 class = "col-md-2"></div>
+	<div id=appEl3 class = "col-md-2"></div>
+	<div id=appEl4 class = "col-md-2"></div>
+	<div id=appEl5 class = "col-md-2"></div>
+</div>
+
+<script src="preact.dev.js"></script>
+
+<script>
+	var h = preact.h;
+
+	class Counter {
+		constructor(child){
+			this.child = child
+			this.state = {counter:0}
+		}
+		render() {
+			console.log("In render")
+			if (window.event) {
+				window.event.stopPropagation()
+			}
+
+			const inc = () => {
+				this.state.counter++
+				this.render()
+			}
+
+			const dec = () => {
+				this.state.counter--
+				this.render()
+			}
+
+			const View = () => {
+				return h("div", null,
+					h("button",  {onclick: () => dec()}, "-"),
+					h("div", null, this.state.counter),
+					h("button", {onclick: () => inc()}, "+"),
+					)
+			}
+
+			if(this.child == "first"){
+				// console.log(this.child,appEl)
+				preact.render(View(), appEl1, appEl1.firstChild)
+			}	
+			else if (this.child == "second"){
+				preact.render(View(), appEl2, appEl2.firstChild)
+			}
+			else if (this.child == "third"){
+				preact.render(View(), appEl3, appEl3.firstChild)
+			}
+			else if (this.child == "fourth"){
+				preact.render(View(), appEl4, appEl4.firstChild)
+			}
+			else if (this.child == "fifth"){
+				preact.render(View(), appEl5, appEl5.firstChild)
+			}
+		}
+	}
+	var c1 = new Counter("first")
+	var c2 = new Counter("second")
+	var c3 = new Counter("third")
+	var c4 = new Counter("fourth")
+	var c5 = new Counter("fifth")
+	c1.render();
+	c2.render();
+	c3.render();
+	c4.render();
+	c5.render();
+</script>
