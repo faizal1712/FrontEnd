@@ -19,12 +19,12 @@
         <div class="col-md-12 col-sm-12 col-12 col-lg-12 px-5" id="cal">
             <div class="m-3 row text-white">
                 <div class="col-md-2 btn text-left text-white" id="history_btn"><u>History</u></div>
-                <div class="col-md-9 text-right">
+                <!-- <div class="col-md-9 text-right">
                     <h4 id="valA"></h4>
                 </div>
                 <div class="col-md-1">
                     <h4 id="operation"></h4>
-                </div>
+                </div> -->
             </div>
             <div class="m-3 border">
                 <h1 class="text-right text-white" id="valB">0</h1>
@@ -143,7 +143,6 @@
 <script>
     window.flag = false
     window.hist = false
-    window.A = false
 
     $(document).ready(function() {
         // //console.log($("#cal").outerHeight)
@@ -195,56 +194,54 @@
             $("#valB").text("0")
         } else if (this.id == "ac_clear") {
             $("#history_data").empty()
-            $("#valA").text("")
-            $("#operation").text("")
+                // $("#valA").text("")
+                // $("#operation").text("")
             $("#valB").text("0")
         }
     })
     $(".digit").click(function() {
-        window.A = true
-        if (isNaN(parseFloat($("#valB").text()))) {
-            $("#valB").text(this.id)
-        } else if (parseFloat($("#valB").text()) == 0 && !$("#valB").text().includes(".")) {
+        if ($("#valB").text() == "0" && !$("#valB").text().includes(".")) {
             if (flag == true) {
                 flag = false;
-                $("#valA").text("")
+                // $("#valA").text("")
             }
             $("#valB").text(this.id)
         } else {
             if (flag == true) {
                 flag = false;
-                $("#valA").text("")
+                $("#valB").text(this.id)
+            } else {
+                $("#valB").append(this.id)
             }
-            $("#valB").append(this.id)
         }
     })
     $(".symbol").click(function() {
         //console.log(parseFloat($("#valB").text()))
-        if (isNaN(parseFloat($("#valB").text()))) {
-            alert("Numerical value required to perform operations")
-        } else if ($("#valA").text() == "") {
-            $("#valA").text($("#valB").text())
-            $("#operation").text(this.id)
-            $("#valB").text("0")
-            window.A = false
-        } else {
-            //console.log("else")
+        char = $("#valB").text().slice(-1)
+        if (char != "+" && char != "-" && char != "*" && char != "/" && char != "%") {
             if (flag == true) {
                 flag = false;
-                $("#operation").text(this.id)
-            } else {
-                if (window.A)
-                    calculate_val()
-                $("#operation").text(this.id)
             }
+            $("#valB").append(this.id)
+        } else {
+            str = $("#valB").text()
+            substr = str.substr(0, str.length - 1)
+            substr += this.id
+            $("#valB").text(substr)
         }
+        //console.log("else")
     })
     $("#equal").click(function() {
-        flag = true
-            //console.log("hit equal")
-        calculate_val()
-        $("#operation").text("")
-        window.A = false
+        char = $("#valB").text().slice(-1)
+            // console.log(char)
+        if (char != "+" && char != "-" && char != "*" && char != "/" && char != "%") {
+            flag = true
+                //console.log("hit equal")
+            calculate_val()
+                // $("#operation").text("")
+        } else {
+            alert("Please enter valid expression ! ")
+        }
     })
     $("#dot").click(function() {
         //console.log("dot")
@@ -259,14 +256,14 @@
 
     function calculate_val() {
         $.ajax({
-                url: "http://localhost:8000/calculate",
+                url: "http://localhost:8080/calculate",
                 type: "POST",
                 dataType: "json",
                 contentType: "application/json",
                 data: JSON.stringify({
-                    ValA: parseFloat($("#valA").text()),
-                    ValB: parseFloat($("#valB").text()),
-                    Action: $("#operation").text()
+                    // ValA: parseFloat($("#valA").text()),
+                    Data: $("#valB").text(),
+                    // Action: $("#operation").text()
                 }),
             })
             .done(function(response) {
@@ -274,18 +271,19 @@
                     if (response.IsError) {
                         alert(response.Msg)
                     } else {
-                        //console.log(response)
-                        $("#history_data").prepend("<p>" + response.Data.ValA + " " + response.Data.Action + " " + response.Data.ValB + " = " + response.Ans)
-                        $("#valA").text(response.Ans)
-                        $("#valB").text("0")
+                        // console.log(response)
+                        $("#history_data").prepend("<p>" + response.Data.Data + " = " + response.Data.Ans)
+                        $("#valB").text(response.Data.Ans)
+                            // $("#valB").text("0")
                     }
                 } catch (err) {
                     alert("An error occured, Please try again!", err);
                 }
             })
             .fail(function(jqXHR, textStatus, errorThrown) {
-                var msg = JSON.parse(jqXHR.responseText);
-                //console.log(msg)
+                // var msg = JSON.parse(jqXHR.responseText);
+
+                console.log(jqXHR.responseText)
             });
     }
 </script>

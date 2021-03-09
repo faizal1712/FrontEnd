@@ -29,7 +29,7 @@ func main() {
 	http.HandleFunc("/clearhistory", clearHistory)
 
 	fmt.Println("Listening")
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":8000", nil)
 }
 
 func calculate(w http.ResponseWriter, r *http.Request) {
